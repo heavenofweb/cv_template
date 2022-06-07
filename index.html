@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo"> Elon Musk</a>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-home nav__icon active-link'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="img/perfil.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">Elon Musk</h1>
+                                <h3 class="home__profession">Entrepreneur, Engineer, Inventor,
+                                    and Investor</h3>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i> Los Angeles, USA
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon'></i> musk@spacex.com
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i> 911-363-6000
+                                </span>
+                            </div>
+                        </div>
+                         <!-- Button to generate and download the pdf. Available for desktop. -->
+                          <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+    
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">Social</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i> @elonmusk
+                            </a>
+
+                            <a href="" target="_blank" class="social__link">
+                                <i class='bx bxl-facebook social__icon'></i> @elonmusk
+                            </a>
+
+                            <a href="" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon'></i> @elonmusk
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">
+                            Aiming to reduce global warming through sustain-
+                            able energy production and consumption.
+                            Planning to reduce the risk of human extinction by
+                            making life multi-planetary and setting up a human
+                            colony on Mars.
+                        </p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                      <h2 class="section-title">Education</h2>  
+
+                      <div class="education__container bd-grid">
+                          <div class="education__content">
+                              <div class="education__time">
+                                  <span class="education__rounder"></span>
+                                  <span class="education__line"></span>
+                              </div>
+
+                              <div class="education__data bd-grid">
+                                  <h3 class="education__title">Bachelor of Science in Economics</h3>
+                                  <span class="education__studies">Wharton School of the University of Pennsylvania</span>
+                                  <span class="education__year">1992 - 1195</span>
+                              </div>
+                          </div>
+
+                          <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Bachelor of Science in Ohysics</h3>
+                                <span class="education__studies">Penn's College of Arts and Sciences</span>
+                                <span class="education__year">1992 - 1995</span>
+                            </div>
+                        </div>
+                      </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                       <h2 class="section-title">Skills</h2>
+                       
+                       <div class="skills__content bd-grid">
+                           <ul class="skills__data">
+                               <li class="skills__name">
+                                   <span class="skills__circle"></span> Marketing
+                               </li>
+                               <li class="skills__name">
+                                <span class="skills__circle"></span> Goal oriented
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Leadership
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Micromanagement
+                            </li>
+                           </ul>
+
+                           <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Resiliency
+                            </li>
+                            <li class="skills__name">
+                             <span class="skills__circle"></span> Persistence
+                         </li>
+                         <li class="skills__name">
+                             <span class="skills__circle"></span> Creativity
+                         </li>
+                        </ul>
+                       </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Founder, CEO & Lead Designer</h3>
+                                    <span class="experience__company">From 2002 | SpaceX</span>
+                                    <p class="experience__description">Successfully launched Falcon Heavy, the most powerful operational
+                                        rocket in the world by a factor of two, with the ability to lift into
+                                        orbit nearly 64 metric tons (141,000 (b) -- a mass greater than a
+                                        737 jetliner loaded with passengers, crew, luggage and fuel.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">CEO and product Architect</h3>
+                                    <span class="experience__company">From 2004 | Tesla Inc.</span>
+                                    <p class="experience__description">Global sales passed 250,000 units in September 2017.<br>
+                                        Topped Consumer Reports Annual Owner Satisfaction Survey at 91% in 2016.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Founder & CEO</h3>
+                                    <span class="experience__company">From 2016 | Neurolink</span>
+                                    <p class="experience__description">A company aims to make devices to treat serious brain diseases in the short-term, with the eventual goal of human enhancement.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">IEEE Honorary Membership</h3>
+                                <p class="certificate__description">Given to people who have rendered meritorious service to humanity in the IEEE's designated fields of interest.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Businessperson of The Year by Fortune Magazine.</h3>
+                                <p class="certificate__description">Prize received for the following companies: SpaceX, Tesla Motors and SolarCity.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">FAI Gold Space Medal</h3>
+                                <p class="certificate__description">One of the highest honors in the aerospace industry shared
+                                    with prominent personalities like Neil Armstrong and John
+                                    Glenn.</p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Honorary Doctorate in Design from the Art Center College of Design</h3>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Honorary Doctorate of Engineering and Technology from Yale University</h3>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Afrikaans
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-atom interests__icon' ></i>
+                                <span class="interests__name">Physics</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-rocket interests__icon'></i>
+                                <span class="interests__name">Space Engineering</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-book interests__icon'></i>
+                                <span class="interests__name">Reading</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-terminal interests__icon'></i>
+                                <span class="interests__name">AI</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxl-twitter interests__icon'></i>
+                                <span class="interests__name">Twitter</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
